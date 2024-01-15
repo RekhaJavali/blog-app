@@ -1,0 +1,7 @@
+.posts {
+    /* color:red; */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex:9;
+}

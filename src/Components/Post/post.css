@@ -1,0 +1,19 @@
+.post {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 40px 25px;
+}
+
+
+.postImage {
+    width:300px;
+    border-radius: 7px;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
