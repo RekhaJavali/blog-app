@@ -11,8 +11,12 @@ const post =()=>{
         <div className="post">
             <img className="postImage" src="https://static.toiimg.com/img/91227987/Master.jpg" alt=""/>
             <div className="postInfo">
-                <span className="postcat">Music Life</span>
-                <span className="postTitle">Lorem data</span>
+                <div className="postcateg">
+                    <span className="postcat">Music</span>
+                    <span className="postcat">Life</span> 
+                </div>
+                <span className="postTitle">Lorem data Title</span>
+                <hr />
                 <span className="postTime" >1 hr ago</span>
             </div>
             <p className="postdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit saepe blanditiis, 
