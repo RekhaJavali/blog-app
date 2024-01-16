@@ -17,7 +17,7 @@ export function TopBar(){
                     <li className="centerTopItem">Contact</li>
                     <li className="centerTopItem">Write</li>
                     <li className="centerTopItem">Logout</li>
-                    <li className="centerTopItem">Working Status</li>
+                    {/* <li className="centerTopItem">Working Status</li> */}
                 </ul>
 
             </div>

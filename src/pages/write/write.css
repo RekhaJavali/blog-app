@@ -1,0 +1,75 @@
+.write {
+    margin-top:20px;
+}
+
+.writeImage {
+    /* width:100%; */
+    width:70vw;
+    margin-left:150px;
+    height:300px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.writeForm{
+    position: relative;
+}
+
+.writeFormInput {
+    display: flex;
+    align-items: center;
+    
+    margin-left:150px;
+}
+
+.writeFileIcon {
+    width:25px;
+    height: 25px;
+    font-size: 20px;
+    border:1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(113, 111, 111)
+
+}
+
+.writeInput {
+    font-size: 30px;
+    border:none;
+    padding:20px;
+    width:70vw;
+}
+
+.writeInput::placeholder {
+    color: rgb(128, 125, 125);
+    font-weight: 400;
+}
+
+.writeInput:focus{
+    outline-style: none;
+}
+
+.writeText {
+    width: 70vw;
+    height:100vh;
+    font-size: 20px;
+}
+
+.writebutton {
+    color:white;
+    background-color: teal;
+    /* border: none; */
+    border-radius: 5px;
+    border: none;
+    padding:10px;
+    font-size: 16px;
+    position:absolute;
+    top:20px;
+    right:50px;
+    cursor: pointer;
+    /* text-align: center; */
+    
+}
