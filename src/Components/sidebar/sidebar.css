@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color:floralwhite; */
+    background-color: #fdfbfb;
     padding-bottom:20px;
     margin:20px;
 }
@@ -31,9 +31,10 @@
 }
 
 .sideImage {
-    width:250px;
+    width:80%;
     height:250px;
     margin-top:15px;
+    object-fit:cover;
 }
 
 
@@ -41,6 +42,7 @@
 .sidebarItem > p {
     /* color:red; */
     padding:25px;
+    width:80%;
     /* color: dimgrey; */
 }
 

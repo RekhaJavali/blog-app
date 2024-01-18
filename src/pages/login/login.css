@@ -67,3 +67,7 @@
     top:60px;
     right: 20px;
 }
+
+.loginRegisterbtn:hover {
+   background-color:  rgb(40, 98, 98);
+}
