@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:floralwhite;
+    background-color: #fdfbfb;
     padding-bottom:20px;
     margin:20px;
 }
@@ -17,8 +17,8 @@
 }
 
 .sidebarItemTitle {
-    border-top: 2px solid #444;
-    border-bottom: 2px solid #444;
+    border-top: 2px solid #a7a4a4;
+    border-bottom: 2px solid #a7a4a4;
     margin: 8px;
     padding: 5px;
     width:80%;
@@ -31,16 +31,19 @@
 }
 
 .sideImage {
-    width:300px;
-    height:300px;
+    width:80%;
+    height:250px;
     margin-top:15px;
+    object-fit:cover;
 }
 
 
 /* .sideText  */
 .sidebarItem > p {
     /* color:red; */
-    padding:35px;
+    padding:25px;
+    width:80%;
+    /* color: dimgrey; */
 }
 
 .sidebarList {
@@ -68,4 +71,5 @@
     margin:5px;
     color:#444;
     font-size: 30px;
+    cursor: pointer;
 }

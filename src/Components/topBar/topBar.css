@@ -10,7 +10,7 @@
     position:sticky;
     top:0;
     font-family: "Josefin Sans", sans-serif;
-    /* z-index: 99; */
+    z-index: 999;
 }
 
 .leftTop, .rightTop {
@@ -47,8 +47,9 @@
 }
 
 .centerTopItem {
-    margin-right:10px;
+    margin-right:20px;
     font-size: 30px;
+    color:gray;
     /* font-weight: 300; */
     cursor: pointer;
 }
