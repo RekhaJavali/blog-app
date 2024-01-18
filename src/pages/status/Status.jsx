@@ -13,6 +13,10 @@ export function Status () {
                 <li>Routing is implemeted</li>
                 <li>Link is used(react-router), and its syle is in index.html (glabl style)</li>
             </ul>
+
+            <ul>api and client
+                <li>Created client folder and Moved the react code to client folder</li>
+            </ul>
         </div>
         </>
     );
