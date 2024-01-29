@@ -1,0 +1,17 @@
+
+front-end
+Routing pages are under src/pages
+components for pages are under src/components
+Routing is implemeted
+Link is used(react-router), and its syle is in index.html (glabl style)
+            
+
+api and client
+    Created client folder and Moved the react code to client folder
+
+
+    cd api, run the command npm init. npm i express mongoose dotenv multer
+    in .env, keep the credentials- which is secure
+    import mongoose, and create connection to the mongodb
+    create models, routes inside api folder
+    multer for images.
