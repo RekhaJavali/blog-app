@@ -1,0 +1,46 @@
+
+front-end
+Routing pages are under src/pages
+components for pages are under src/components
+Routing is implemeted
+Link is used(react-router), and its syle is in index.html (glabl style)
+            
+
+api and client
+    Created client folder and Moved the react code to client folder
+
+    backend is in api folder
+    cd api, run the command npm init to have node file structure in json.
+    create one index.js file
+    modify the script: "start": "node index.js"
+     npm i express mongoose dotenv multer
+    in .env, keep the credentials- which is secure (here we are keeping db credentials)
+    import mongoose, and create connection to the mongodb
+    go to mongodb url, database access get the username and password.
+    go to cluster-> click on connect-> connect to application
+
+    create models, routes inside api folder
+    multer for images.
+
+    write boilerplate code for express
+    connect to db
+    env veriabes access thru (process.env.MONGO_URL)
+
+    installed nodemon to restart the server autmatically for the changes.
+    dotenv.config(); is must.
+
+
+    create models and routes folder
+    models to define the schema and models
+    user.js
+    post.js
+    category.js
+    define the schema, export them
+
+    routes
+    user.js: add, delete username
+    post.js: create new, delete posts
+    category.js:
+    auth.js: user authentication
+
+
